@@ -3,6 +3,14 @@
   <name>DotNet Hello World</name>
   <description>Example of DotNet Project</description>
   <parameters />
+  <project-extensions>
+    <extension id="PROJECT_EXT_3" type="agentPriority">
+      <parameters>
+        <param name="priorityOrder" value="1" />
+        <param name="priorityType" value="byCpuIndex" />
+      </parameters>
+    </extension>
+  </project-extensions>
   <cleanup />
 </project>
 
